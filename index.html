@@ -159,8 +159,11 @@ i, .fa, [class^="fa-"], [class*=" fa-"], [class*="icon" i] { font-family: inheri
     <div class="flex flex-col lg:flex-row gap-8 lg:gap-12 items-start">
       <!-- LEFT -->
       <div class="w-full lg:w-[55%] flex flex-col gap-6 lg:sticky lg:top-8">
-        <div data-product-gallery="" class="w-full flex flex-col lg:flex-row gap-3 lg:gap-4 items-start">
-          <div class="order-2 lg:order-1 w-full lg:w-[88px] flex-shrink-0 grid grid-cols-4 lg:grid-cols-1 gap-3">
+        <div data-product-gallery="" class="w-full flex flex-col gap-3">
+          <!-- Main image -->
+          <img data-gallery-main="" id="product-gallery-main" src="https://nyrslifytgbluamxpqzq.supabase.co/storage/v1/object/public/website-images/edits/0cce3e17-a45c-4e31-8080-0a15f285b0e1/709b6e2e-cd74-4c08-af87-458ac5ada951/7b5f6a56-8039-4e58-b1d8-69f168ddc8b1.png" alt="Workbook Vorschau 4" class="w-full rounded-2xl block object-cover transition-opacity duration-200 aspect-square" style="opacity: 1;">
+          <!-- Thumbnails row -->
+          <div class="w-full grid grid-cols-4 gap-3">
             <button type="button" data-gallery-thumb="" aria-label="Produktbild 1 anzeigen" aria-pressed="false" class="rounded-lg overflow-hidden p-0 bg-transparent border-0 cursor-pointer transition-all focus:outline-none ring-2 ring-transparent">
               <img src="https://nyrslifytgbluamxpqzq.supabase.co/storage/v1/object/public/website-images/edits/0cce3e17-a45c-4e31-8080-0a15f285b0e1/709b6e2e-cd74-4c08-af87-458ac5ada951/6e82fc86-98e1-4538-b7b6-dd9880b7da6e.png" alt="Hauptvisual Workbook" class="rounded-lg aspect-square object-cover border border-gray-200 w-full h-full block pointer-events-none" style="">
             </button>
@@ -174,7 +177,6 @@ i, .fa, [class^="fa-"], [class*=" fa-"], [class*="icon" i] { font-family: inheri
               <img src="https://nyrslifytgbluamxpqzq.supabase.co/storage/v1/object/public/website-images/edits/0cce3e17-a45c-4e31-8080-0a15f285b0e1/709b6e2e-cd74-4c08-af87-458ac5ada951/7b5f6a56-8039-4e58-b1d8-69f168ddc8b1.png" alt="Workbook Vorschau 4" class="rounded-lg aspect-square object-cover border border-gray-200 w-full h-full block pointer-events-none" style="">
             </button>
           </div>
-          <img data-gallery-main="" id="product-gallery-main" src="https://nyrslifytgbluamxpqzq.supabase.co/storage/v1/object/public/website-images/edits/0cce3e17-a45c-4e31-8080-0a15f285b0e1/709b6e2e-cd74-4c08-af87-458ac5ada951/7b5f6a56-8039-4e58-b1d8-69f168ddc8b1.png" alt="Workbook Vorschau 4" class="order-1 lg:order-2 flex-1 w-full rounded-2xl block object-cover transition-opacity duration-200 aspect-square object-cover" style="opacity: 1;">
         </div>
         <!-- As Seen On (desktop below main image) -->
         <div class="mt-6 order-last lg:order-none rounded-2xl p-6 lg:p-8 text-center flex flex-col items-center gap-4" style="background:var(--color-accent);">
